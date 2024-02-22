@@ -1,0 +1,35 @@
+*,::before,::after{
+    box-sizing: border-box;
+    background-color: rgba(30, 29, 29, 0.715);
+    color: rgb(199, 195, 195);
+}
+body{
+    margin: 0;
+
+}
+input{
+    padding: 10px;
+  
+}
+input[type="text"],input[type="number"]{
+    border: 1px solid rgba(255, 0, 0, 0.374);
+    margin-top: 10px;
+    outline: none;
+}
+input[type="submit"]{
+    background-color: rgba(255, 0, 0, 0.71);
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+form{
+    border-right: 1px solid rgba(255, 0, 0, 0.648);
+}
+label{
+    font-size: 18px;
+}
+tfoot{
+    font-size: 19px;
+    font-weight: bolder;
+}
